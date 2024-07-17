@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ga+Maamli&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background: url("./marioo.png");
+  background-size: cover;
+}
+#icon {
+  height: 45px;
+  width: 50px;
+}
+
+#board {
+  width: 540px;
+  height: 540px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  background: url("./soil.png");
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
+#board div {
+  width: 180px;
+  height: 180px;
+  background-image: url("./pipe.png");
+  background-size: cover;
+}
+
+#board div img {
+  width: 100px;
+  height: 100px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
